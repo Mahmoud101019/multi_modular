@@ -4,13 +4,14 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+## How to create a module 
 
-A few resources to get you started if this is your first Flutter project:
+1- create directory 
+-> mkdir core
+2- cd core
+3-flutter create --template=package enter_module_name
+flutter create --template=package data
+=================================
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter create --template=package core/data
+$ melos
